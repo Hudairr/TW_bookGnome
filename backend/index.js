@@ -13,8 +13,9 @@ const app = express()
 app.use(cors(
     {
         origin: ["https://tw-book-gnome-frontend.vercel.app"],
-        methods: ["POST", "GET"],
-        credentials: true
+        methods: ["POST", "GET", "PUT", "DELETE"],
+        credentials: true,
+        exposedHeaders: ["set-cookie]
     }
 ));
 app.use(express.json());
