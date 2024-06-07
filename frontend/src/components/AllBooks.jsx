@@ -9,7 +9,7 @@ function AllBooks() {
   useEffect(()=>{
     const getBook=async()=>{
       try{
-        const res = await axios.get("tw-book-gnome.vercel.app/book");
+        const res = await axios.get("https://tw-book-gnome.vercel.app/book");
         console.log(res.data);
         setBook(res.data);
       }catch(error){
