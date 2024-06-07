@@ -9,11 +9,11 @@ import userRoute from "../backend/route/user.route.js"
 const app = express()
 
 app.use(cors(
-    //{
-        //origin: [""],
-        //methods: ["", ""],
-        //credentials: true
-    //}
+    {
+        origin: ["https://tw-book-gnome.vercel.app"],
+        methods: ["POST", "GET"],
+        credentials: true
+    }
 ));
 app.use(express.json());
 
