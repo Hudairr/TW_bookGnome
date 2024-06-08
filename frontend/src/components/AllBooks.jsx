@@ -26,7 +26,7 @@ function AllBooks() {
               Discover Your Next Great Read with{" "}
               <span className="text-green-800">Book Gnome!</span>
             </h1>
-            <p className="mt-12">Our mission is to connect readers with stories that inspire, educate, and entertain. With personalized recommendations and a vibrant community, we make finding your next book a delightful experience. </p>
+            <p className="mt-12">Our mission is to connect readers with stories that inspire, educate, and entertain. With Hudairr's recommendations and a vibrant community, we make finding your next book a delightful experience. </p>
             <Link to="/">
               <button className="mt-4 bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-700 duration-300">
                 Back

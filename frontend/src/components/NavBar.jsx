@@ -19,20 +19,6 @@ function NavBar() {
       document.body.classList.remove("dark");
     }
   }, [theme]);
-  {/*const [sticky, setSticky] = useState(false);
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 0) {
-        setSticky(true);
-      } else {
-        setSticky(false);
-      }
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);*/}
   const navItems = (
     <>
       <li>
